@@ -4,7 +4,6 @@ A static-analysis tool that inspects suspicious Windows executables and
 scores them on a 0-100 risk scale using PE structure analysis, entropy,
 string analysis, and YARA rule matching — without ever executing the file.
 
-> ⚠️ **Scope note for your report**: this performs *static* analysis only.
 > It heuristically scores risk; it does not "guarantee" detection of any
 > malware (no tool, including commercial AV, can claim that). Frame it in
 > your writeup as a triage/first-pass tool that a SOC L1 analyst would use
