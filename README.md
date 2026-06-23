@@ -69,16 +69,9 @@ to stop watching.
 
 3. If you want to test against *real* malware samples for your report (optional, advanced), use an isolated VM with no network/shared folders, and source samples only from a controlled academic dataset (e.g. ones provided by your course) — never download "malware samples" from random sites.
 
-## Suggested report structure (for your capstone submission)
 
-1. Problem statement — static analysis as a SOC triage step
-2. Architecture diagram (modules → scoring engine → report)
-3. Methodology per module (why entropy threshold of 7.2, why these YARA rules, etc.)
-4. Testing results — EICAR + UPX-packed benign samples, with score breakdowns
-5. Limitations — static-only (no behavioral/dynamic analysis), can be evaded by sufficiently sophisticated obfuscation, heuristic not definitive
-6. Future work — sandbox integration (Cuckoo), ML-based classification, fuzzy hashing (ssdeep) for sample similarity
 
-## Known limitations (be upfront about these in your viva — examiners respect this)
+## Known limitations 
 
 - Static analysis can be evaded by advanced packers/obfuscators
 - No behavioral analysis (what the file *does* when run)
