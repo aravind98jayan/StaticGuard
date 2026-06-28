@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Static Malware Triage Tool
-Educational/portfolio project for static analysis of suspicious files.
+Educational project for static analysis of suspicious files.
 Usage:
     python main.py <path_to_file>
     python main.py <path_to_file> --json report.json
