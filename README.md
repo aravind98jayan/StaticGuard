@@ -1,4 +1,4 @@
-# Static Malware Triage Tool
+# StaticGuard - Malware Triage Tool
 
 A static-analysis tool that inspects suspicious Windows executables and
 scores them on a 0-100 risk scale using PE structure analysis, entropy,
